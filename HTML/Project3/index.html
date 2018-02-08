@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>project4 part3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>ReadEZ 5.0</h1>
+      <p class="intro">ReadEZ 5.0 is a software application used to help the user read more efficiently. ReadEZ allows the user to copy in as much text as they want and listen to that text in different reading speeds and accents. ReadEZ also allows the user to click on any word to find the definition on dictionary.com.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <label>Enter in text</label>
+      <textarea rows="4" cols="50" class="input form-control"> </textarea>
+      <button class="submit btn btn-default">Submit</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+
+      <label>Your results</label>
+      <div class="results"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <input type='button' value='🔊 Play' class="play btn btn-default"></input>
+      <button class="pause btn btn-default">Pause</button>
+      <button class="resume btn btn-default">Resume</button>
+      <button class="stop btn btn-default">Stop</button>
+      <label>Reading Speed
+      <select class= "rate">
+        <option value="0">Very Slow</option>
+        <option value="0.5">Slow</option>
+        <option value=".8" selected>Normal</option>
+        <option value="1.5">Fast</option>
+</select>
+        </label>
+    <label>Accents
+      <select class= "accents">
+        <option value="UK English Male">UK English Male</option>
+        <option value="US English Female" selected>US English Female</option>
+        <option value="Australian Female">Australian Female</option>
+        <option value="Russian Female">Russian Female</option>
+</select>
+</label>  
+    <footer>Copyright John Thompkins 2017</footer>
+  </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

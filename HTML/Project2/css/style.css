@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(80,100,170);
+}
+ul{
+  list-style: none;
+}
+.lists{
+  background-color: #df691a;
+  overflow:auto;
+}
+.tasks{
+  background-color: #df691a;
+  overflow: auto;
+  width: 100%;
+}
+.addList{
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+}
+.addTask{
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+}
+.fa-window-close{
+  float: right !important;
+}
+.fa-square-o{
+  margin:5px;
+}
+.fa-plus-square-o{
+  float: right;
+  position: relative;
+  width: 80px !important;
+  font-size: 25px !important;
+  bottom: 29px !important;
+  
+}
+input{
+  width: 400px !important;
+}
+.checked {
+  text-decoration: line-through !important;
+}

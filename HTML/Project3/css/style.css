@@ -1,0 +1,53 @@
+.results{
+  border: 1px solid;
+  height: 200px;
+  min-height: 50%;
+  overflow: auto;
+  margin: auto;
+  border-radius: 5px;
+  font-family: 'Droid Serif', serif;
+}
+body{
+  background-image: url("https://s3.us-east-2.amazonaws.com/johthompkins/img/background.jpg");
+  font-family: 'Droid Serif', serif;
+}
+.container{
+  padding: 10px;
+  margin: auto;
+  margin-top: 40px;
+  background: #ffffff;
+  
+
+}
+div{
+  border-radius: 10px;
+  
+}
+.intro{
+  font-size: 95%;
+  text-align: justify;
+}
+.input{
+  width:100% !important;
+  
+}
+button{
+  background: #ffc04d;
+  margin: 1.5px;
+}
+button:hover{
+  background: #ffcffd;
+}
+.play{
+  background: #ffc04d;
+}
+.play:hover{
+  background: #ffcffd;
+}
+span:hover{
+  color: #ffc04d;
+}
+footer{
+  font-size:  47%;
+  text-align: right;
+}
